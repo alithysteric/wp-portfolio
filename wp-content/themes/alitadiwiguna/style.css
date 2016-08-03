@@ -1,0 +1,176 @@
+/*
+Theme Name: Alit Adiwiguna
+Theme URI: http://alitadiwiguna.com
+Author: Alit Adiwiguna
+Author URI: http://alitadiwiguna.com
+Description: Alit Adiwiguna is simple portfolio theme layout.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: simple
+Text Domain: alitadiwiguna
+*/
+
+@font-face {
+	font-family: Roboto-Thin;
+    src: url( 'fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Roboto-Light;
+    src: url( 'fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: Roboto-Regular;
+    src: url( 'fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+body{
+	font-size: 14px;
+	color: #d9534f;
+	font-family: Roboto-Light;
+}
+
+.list-top{
+	height: 8px;
+	background-color: #d9534f;
+}
+
+.jumbotron .container{
+	position: relative;
+	font-family: Roboto-Thin;
+}
+
+.jumbotron .container h1,
+.jumbotron .container h2{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.jumbotron .container .photo-profile{
+	max-width: 530px;
+	margin: 0 auto;
+}
+
+.jumbotron .container .photo-profile img{
+	border-radius: 50%;
+}
+
+.wrap-text{
+    position: absolute;
+    top:50%;
+    margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+ .wrap-text h1{
+ 	font-size: 110px;
+ }
+
+ .wrap-text h2{
+ 	font-size: 48px;
+ }
+
+ .about-title h3{
+ 	font-family: Roboto-Regular;
+ 	text-align: center;
+ 	margin-bottom: 30px;
+ }
+
+ .margin-bottom {
+ 	margin-bottom: 30px;
+ }
+
+ .background-grey {
+ 	background-color: #EEEEEE;
+ }
+
+ /* Widget Style */
+ .widget h3 {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: Roboto-Light;
+ }
+
+ .line-widget{
+ 	width: 50px;
+ 	border-top: 1px solid #d9534f;
+ 	margin: 15px auto 15px;
+ }
+
+ .container-portfolio {
+ 	padding-top: 30px;
+ 	padding-bottom: 20px;
+ }
+
+ .row.portfolio-filter {
+ 	padding-bottom: 30px;
+ }
+
+ .portfolio-pieces img{
+ 	max-width: 90%;
+ 	border-radius: 50%;
+ 	margin-bottom: 20px;
+ }
+
+ .container-contact{
+ 	background-color: #d9534f;
+ 	color: #ffffff;
+ 	padding-top: 30px;
+ 	padding-bottom: 20px;
+ }
+
+ .container-contact h3 {
+ 	font-family: Roboto-Regular;
+ }
+
+ .btn.active.focus, 
+ .btn.active:focus, 
+ .btn.focus, 
+ .btn:active.focus, 
+ .btn:active:focus, 
+ .btn:focus {
+	outline: none;
+ }
+
+ footer {
+ 	padding-top: 20px;
+ 	padding-bottom: 10px;
+ }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1080px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .portfolio-pieces img {
+    max-width: 50%;
+  }
+   .wrap-text h1{
+ 	font-size: 85px;
+ }
+
+ .wrap-text h2{
+ 	font-size: 36px;
+ }
+
+}
+
+@media (max-width: 450px) {
+ .portfolio-pieces img {
+    max-width: 90%;
+  }
+ .wrap-text h1{
+ 	font-size: 63px;
+ }
+
+ .wrap-text h2{
+ 	font-size: 24px;
+ }
+}
+
